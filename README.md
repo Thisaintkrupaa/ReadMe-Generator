@@ -16,7 +16,7 @@ Created a ReadMe using a command-line application
 
 # Installation
 
-run npm i in the terminal to install necessary dependencies
+run  npm i in the terminal to install necessary dependencies
 
 
 # Usage
@@ -37,6 +37,8 @@ License:  MIT
 # Tests 
 
 run: npm test in the terminal to run the test
+
+
 
 
 
