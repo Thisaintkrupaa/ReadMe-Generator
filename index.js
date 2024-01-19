@@ -40,18 +40,26 @@ name: 'title',
 message: 'Enter the title of your project: ',
 }
 
-
-
-
-
 ];
 
-// function to write README file
+// function to write README file 
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data , (err) => err ? console.log(err) : console.log('Generating ReadMe.../Succesfully Generated!!!'));
 }
+     
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions)
+    .then((response) => { 
+        const readmeContent = generateMarkdown(response);
+        writeToFile('README.md' ,readmeContent);   
+    })
+
+
+    .catch((error) => {
+        console.error(error);
+    });
 
 }
 
