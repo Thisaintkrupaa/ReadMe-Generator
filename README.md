@@ -16,14 +16,14 @@ Created a ReadMe using a command-line application
 
 # Installation
 
-
+run npm i in the terminal to install necessary dependencies
 
 
 # Usage
 
 
 
-#License
+# License
 
 License:  MIT
 
