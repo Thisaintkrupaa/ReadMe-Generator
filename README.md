@@ -21,6 +21,9 @@ run  npm i in the terminal to install necessary dependencies
 
 # Usage
 
+ walk through video 
+
+ https://drive.google.com/file/d/1Kgsx02S5R8BX5tugJdBlZqiV0tOZfvE8/view?usp=drive_link
 
 
 # License
